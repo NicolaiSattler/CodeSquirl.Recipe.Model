@@ -15,7 +15,7 @@ namespace CodeSquirl.Recipy.Model
             builder.RegisterType<Unit>();
             builder.RegisterType<Preparation>();
             builder.RegisterType<Recipy>();
-            builder.RegisterType<InstructionBase>();
+            builder.RegisterType<Instruction>();
         }
     }
 }

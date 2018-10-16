@@ -2,18 +2,18 @@
 
 namespace CodeSquirl.Recipy.Model
 {
-    public class Preparation : InstructionBase
+    public class Preparation : Instruction
     {
+        public Guid RecipyId { get; }
+        public TimeSpan Duration { get; }
+        public TimeSpan WaitTime { get; }
+        
         public Preparation(Guid recipyId, Guid referenceId) : base(referenceId)
         {
             RecipyId = recipyId;
+            Duration = new TimeSpan();
+            WaitTime = new TimeSpan();
         }
-
-        public Guid RecipyId { get; private set; }
-
-        public TimeSpan Duration { get; set; } = new TimeSpan();
-
-        public TimeSpan WaitTime { get; set; } = new TimeSpan();
 
         public DateTime Start(DateTime time)
         {
