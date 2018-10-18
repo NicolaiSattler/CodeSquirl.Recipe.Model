@@ -1,6 +1,6 @@
 using Autofac;
 
-namespace CodeSquirl.Recipy.Model
+namespace CodeSquirl.RecipeApp.Model
 {
     public class ModelModule : Module
     {
@@ -14,7 +14,7 @@ namespace CodeSquirl.Recipy.Model
             builder.RegisterType<Product>();
             builder.RegisterType<Unit>();
             builder.RegisterType<Preparation>();
-            builder.RegisterType<Recipy>();
+            builder.RegisterType<Recipe>();
             builder.RegisterType<Instruction>();
         }
     }

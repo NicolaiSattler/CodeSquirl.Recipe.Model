@@ -1,9 +1,9 @@
 ﻿using System;
 using System.Collections.Generic;
 
-namespace CodeSquirl.Recipy.Model
+namespace CodeSquirl.RecipeApp.Model
 {
-    public class Recipy
+    public class Recipe
     {
         public int ID { get; set; }
         public Guid UniqueID { get; set; }
@@ -17,7 +17,7 @@ namespace CodeSquirl.Recipy.Model
         public bool AllowRemnants { get; set; }
         public bool Deleted { get; set; }
 
-        public Recipy()
+        public Recipe()
         {
             Ingredients = new List<Ingredient>();
             Instructions = new List<Instruction>();

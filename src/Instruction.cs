@@ -1,7 +1,7 @@
 ﻿using System;
 using System.Collections.Generic;
 
-namespace CodeSquirl.Recipy.Model
+namespace CodeSquirl.RecipeApp.Model
 {
     public class Instruction
     {

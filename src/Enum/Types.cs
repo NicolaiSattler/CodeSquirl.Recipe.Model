@@ -1,4 +1,4 @@
-﻿namespace CodeSquirl.Recipy.Model
+﻿namespace CodeSquirl.RecipeApp.Model
 {
     public enum UnitType
     {
