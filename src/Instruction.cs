@@ -1,9 +1,10 @@
 ﻿using System;
 using System.Collections.Generic;
+using CodeSquirl.System;
 
 namespace CodeSquirl.RecipeApp.Model
 {
-    public class Instruction
+    public class Instruction : IInstruction
     {
         public int ID { get; set; }        
         public Guid UniqueID { get; set; }
@@ -17,5 +18,15 @@ namespace CodeSquirl.RecipeApp.Model
             ReferenceID = referenceId;
             Necessities = new List<Necessity>();
         }
+
+        public object Clone()
+        {
+            return this.MemberwiseClone();
+        }
+        public T DeepClone<T>(T source) where T : IEntity
+        {
+            throw new NotImplementedException();
+        }
+
     }
 }

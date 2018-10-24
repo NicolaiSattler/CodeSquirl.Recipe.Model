@@ -2,7 +2,7 @@
 
 namespace CodeSquirl.RecipeApp.Model
 {
-    public class Preparation : Instruction
+    public class Preparation : Instruction, IPreparation
     {
         public Guid RecipyId { get; }
         public TimeSpan Duration { get; }

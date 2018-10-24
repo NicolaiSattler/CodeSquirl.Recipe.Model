@@ -3,7 +3,7 @@ using System.Collections.Generic;
 
 namespace CodeSquirl.RecipeApp.Model
 {
-    public class Recipe
+    public class Recipe : IRecipe
     {
         public int ID { get; set; }
         public Guid UniqueID { get; set; }

@@ -1,16 +1,14 @@
 ﻿using System;
 using System.Collections.Generic;
+using CodeSquirl.System;
 
 namespace CodeSquirl.RecipeApp.Model
 {
-    public class Day
+    public class Day : Entity, IDay
     {
-        public int ID { get; set; }
-        public Guid UniqueID { get; set; }
         public int Weeknumber { get; set; }
         public DayName Name { get; set; }
         public IList<Meal> MealCollection { get; }
-        public bool Deleted { get; set; }
 
         public Day()
         {
