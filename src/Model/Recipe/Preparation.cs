@@ -14,10 +14,5 @@ namespace CodeSquirl.RecipeApp.Model
             Duration = new TimeSpan();
             WaitTime = new TimeSpan();
         }
-
-        public DateTime Start(DateTime time)
-        {
-            return time.Subtract(Duration).Subtract(WaitTime);
-        }
     }
 }

@@ -4,15 +4,15 @@ using CodeSquirl.System;
 
 namespace CodeSquirl.RecipeApp.Model
 {
-    public class GroceryList : Entity, IGroceryList
+    public class GroceryList : IGroceryList
     {
         public int WeekNummer { get; set; }
-        public IList<Day> DayCollection { get; }
+        public IList<DayPlan> DayCollection { get; }
         public Guid UserID { get; set; }
 
         public GroceryList()
         {
-            DayCollection = new List<Day>();
+            DayCollection = new List<DayPlan>();
         }
     }
 }

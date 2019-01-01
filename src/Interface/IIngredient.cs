@@ -3,7 +3,7 @@ using CodeSquirl.System;
 
 namespace CodeSquirl.RecipeApp.Model
 {
-    public interface IIngredient : IEntity
+    public interface IIngredient
     {
         IProduct Product { get; set; }
         Unit Amount { get; set; }

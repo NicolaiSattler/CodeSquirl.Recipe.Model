@@ -4,10 +4,10 @@ using CodeSquirl.System;
 
 namespace CodeSquirl.RecipeApp.Model
 {
-    public interface IGroceryList : IEntity
+    public interface IGroceryList
     {
         int WeekNummer { get; set; }
-        IList<Day> DayCollection { get; }
+        IList<DayPlan> DayCollection { get; }
         Guid UserID { get; set; }
     }
 }

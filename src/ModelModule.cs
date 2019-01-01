@@ -6,7 +6,7 @@ namespace CodeSquirl.RecipeApp.Model
     {
         protected override void Load(ContainerBuilder builder)
         {
-            builder.RegisterType<Day>();
+            builder.RegisterType<DayPlan>();
             builder.RegisterType<GroceryList>();
             builder.RegisterType<Meal>();
             builder.RegisterType<Ingredient>();

@@ -3,7 +3,7 @@ using CodeSquirl.System;
 
 namespace CodeSquirl.RecipeApp.Model
 {
-    public class Product : Entity, IProduct
+    public class Product : IProduct
     {
         public string Name { get; set; }
         public ProductType Type { get; set; }

@@ -5,8 +5,6 @@ namespace CodeSquirl.RecipeApp.Model
 {
     public class Recipe : IRecipe
     {
-        public int ID { get; set; }
-        public Guid UniqueID { get; set; }
         public Guid UserID { get; set; }
         public string Name { get; set; }
         public RecipyType Type { get; set; }
@@ -15,7 +13,6 @@ namespace CodeSquirl.RecipeApp.Model
         public IList<Instruction> Instructions { get; }
         public TimeSpan Duration { get; }
         public bool AllowRemnants { get; set; }
-        public bool Deleted { get; set; }
 
         public Recipe()
         {

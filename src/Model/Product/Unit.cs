@@ -3,7 +3,7 @@ using CodeSquirl.System;
 
 namespace CodeSquirl.RecipeApp.Model
 {
-    public class Unit : Entity, IUnit
+    public class Unit : IUnit
     {
         public int Value { get; set; }
         public UnitType Type { get; set; }

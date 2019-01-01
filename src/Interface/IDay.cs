@@ -4,7 +4,7 @@ using CodeSquirl.System;
 
 namespace CodeSquirl.RecipeApp.Model
 {
-    public interface IDay : IEntity
+    public interface IDayPlan
     {
         int Weeknumber { get; set; }
         DayName Name { get; set; }

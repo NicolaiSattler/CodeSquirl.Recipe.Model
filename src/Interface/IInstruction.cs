@@ -4,7 +4,7 @@ using CodeSquirl.System;
 
 namespace CodeSquirl.RecipeApp.Model
 {
-    public interface IInstruction : IEntity
+    public interface IInstruction
     {
         Guid ReferenceID { get; }
         string Description { get; set; }
