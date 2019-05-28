@@ -1,10 +1,12 @@
 ﻿using System;
-using CodeSquirl.System;
+using CodeSquirrel.System;
 
-namespace CodeSquirl.RecipeApp.Model
+namespace CodeSquirrel.RecipeApp.Model
 {
     public class Necessity : INecessity
+
     {
+        public Guid UniqueID { get; set; }
         public string Name { get; set; }
         public string Description { get; set; }
         public bool Electrical { get; set; }

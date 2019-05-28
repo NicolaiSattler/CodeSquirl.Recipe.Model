@@ -1,6 +1,6 @@
 using Autofac;
 
-namespace CodeSquirl.RecipeApp.Model
+namespace CodeSquirrel.RecipeApp.Model
 {
     public class ModelModule : Module
     {

@@ -1,13 +1,13 @@
 ﻿using System;
 using System.Collections.Generic;
 
-namespace CodeSquirl.RecipeApp.Model
+namespace CodeSquirrel.RecipeApp.Model
 {
     public class Recipe : IRecipe
     {
         public Guid UserID { get; set; }
         public string Name { get; set; }
-        public RecipyType Type { get; set; }
+        public RecipeType Type { get; set; }
         public DietType Diet { get; set; }
         public IList<Ingredient> Ingredients { get; }
         public IList<Instruction> Instructions { get; }

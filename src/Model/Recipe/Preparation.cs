@@ -1,6 +1,6 @@
 ﻿using System;
 
-namespace CodeSquirl.RecipeApp.Model
+namespace CodeSquirrel.RecipeApp.Model
 {
     public class Preparation : Instruction, IPreparation
     {

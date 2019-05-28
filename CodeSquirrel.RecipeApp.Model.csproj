@@ -16,6 +16,6 @@
     <PackageReference Include="Autofac.Extensions.DependencyInjection" Version="4.2.0" />
   </ItemGroup>
   <ItemGroup>
-    <ProjectReference Include="..\CodeSquirl.System\CodeSquirl.System.csproj" />
+    <ProjectReference Include="..\CodeSquirrel.System\CodeSquirrel.System.csproj" />
   </ItemGroup>
 </Project>

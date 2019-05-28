@@ -1,4 +1,4 @@
-﻿namespace CodeSquirl.RecipeApp.Model
+﻿namespace CodeSquirrel.RecipeApp.Model
 {
     public enum UnitType
     {
@@ -40,7 +40,7 @@
         Extra = 100
     }
 
-    public enum RecipyType
+    public enum RecipeType
     {
         Undefined = 0,
         Breakfast = 1,

@@ -1,7 +1,7 @@
 using System;
-using CodeSquirl.System;
+using CodeSquirrel.System;
 
-namespace CodeSquirl.RecipeApp.Model
+namespace CodeSquirrel.RecipeApp.Model
 {
     public interface INecessity
     {
