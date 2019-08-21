@@ -13,9 +13,9 @@
     <VersionSuffix>alpha</VersionSuffix>
   </PropertyGroup>
   <ItemGroup>
-    <PackageReference Include="Autofac.Extensions.DependencyInjection" Version="4.2.0" />
+    <PackageReference Include="Autofac.Extensions.DependencyInjection" Version="4.4.0" />
   </ItemGroup>
   <ItemGroup>
-    <ProjectReference Include="..\CodeSquirrel.System\CodeSquirrel.System.csproj" />
+    <ProjectReference Include="..\CodeSquirrel.System\Code\CodeSquirrel.System.csproj" />
   </ItemGroup>
 </Project>

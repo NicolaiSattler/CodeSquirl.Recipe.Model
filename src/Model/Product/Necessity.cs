@@ -4,7 +4,6 @@ using CodeSquirrel.System;
 namespace CodeSquirrel.RecipeApp.Model
 {
     public class Necessity : INecessity
-
     {
         public Guid UniqueID { get; set; }
         public string Name { get; set; }
