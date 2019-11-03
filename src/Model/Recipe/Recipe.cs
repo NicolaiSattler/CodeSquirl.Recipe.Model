@@ -5,6 +5,7 @@ namespace CodeSquirrel.RecipeApp.Model
 {
     public class Recipe : IRecipe
     {
+        public Guid UniqueID { get; set; }
         public Guid UserID { get; set; }
         public string Name { get; set; }
         public RecipeType Type { get; set; }
